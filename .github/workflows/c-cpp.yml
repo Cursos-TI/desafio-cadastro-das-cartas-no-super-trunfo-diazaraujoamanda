@@ -1,0 +1,14 @@
+char: estado = A;
+char: (A04)
+float: cidade = São Bernardo do Campo;
+int: numero de habitantes = 810.729;
+char: quilometros quadrados= 409,6 
+float: PIB = R$ 38,9 bilhões
+int: pontos turisticos = 20 
+
+ printf("Estado: São Paulo %s\n", estado);
+    printf("Cidade: São Bernardo do Campo%s\n", cidade);
+    printf("Habitantes: 810.729 %d\n", habitantes);
+    printf("Quilometros quadrados: 409,6 %s\n", Quilometros quadrados);
+    printf("PIB: R$38,9 %s bilhões\n", PIB);
+    printf("Pontos turisticos: 20 %s\n", pontos turisticos);
