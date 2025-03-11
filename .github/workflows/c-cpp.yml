@@ -1,14 +1,22 @@
-char: estado = A;
-char: (A04)
-float: cidade = São Bernardo do Campo;
-int: numero de habitantes = 810.729;
-char: quilometros quadrados= 409,6 
-float: PIB = R$ 38,9 bilhões
-int: pontos turisticos = 20 
+// Cadastro da cidade
+printf("Cadastro da Cidade: São Bernardo do Campo\n");
+printf("Populacao: 810.729");
+scanf("%d", 810.729 &cidade1.populacao);
+printf("Area: 409,6 metros quadrados");
+scanf("%f",409,6 metros quadrados cidade1.area);
+printf("PIB: R$38,9 bilhões");
+scanf("%f", R$38,9 bilhões &cidade1.pib);
+printf("Numero de pontos turisticos: 20 ");
+scanf("%d", 20 &cidade1.pontos_turisticos);
 
- printf("Estado: São Paulo %s\n", estado);
-    printf("Cidade: São Bernardo do Campo%s\n", cidade);
-    printf("Habitantes: 810.729 %d\n", habitantes);
-    printf("Quilometros quadrados: 409,6 %s\n", Quilometros quadrados);
-    printf("PIB: R$38,9 %s bilhões\n", PIB);
-    printf("Pontos turisticos: 20 %s\n", pontos turisticos);
+
+// Exibição dos dados cadastrados
+printf("\nDados Cadastrados:\n");
+
+printf("\n São bernardo do Campo:\n");
+printf("Populacao: 810.729 %d\n", cidade.populacao);
+printf("Area: 409,6 %.2f km²\n", cidade.area);
+printf("PIB: R$38,9 %.2f bilhões\n", cidade.pib);
+printf("Numero de pontos turisticos: 20 %d\n", cidade1.pontos_turisticos);
+
+return 0;
