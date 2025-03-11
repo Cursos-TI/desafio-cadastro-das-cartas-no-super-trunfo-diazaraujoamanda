@@ -12,11 +12,10 @@ scanf("%d",20 &cidade1.pontos_turisticos);
 
 // Exibição dos dados cadastrados
 printf("\nDados Cadastrados:\n");
-
 printf("\n São bernardo do Campo:\n");
-printf("Populacao: 810.729 %d\n", cidade.populacao);
-printf("Area: 409,6 %.2f km²\n", cidade.area);
+printf("Populacao:810.729 %d\n", cidade.populacao);
+printf("Area:409,6 %.2f km²\n", cidade.area);
 printf("PIB: R$38,9 %.2f bilhões\n", cidade.pib);
-printf("Numero de pontos turisticos: 20 %d\n", cidade1.pontos_turisticos);
+printf("Numero de pontos turisticos:20 %d\n", cidade.pontos_turisticos);
 
 return 0;
