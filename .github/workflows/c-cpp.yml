@@ -1,4 +1,4 @@
-// Cadastro da cidade
+//Cadastro da cidade
 printf("Cadastro da Cidade:São Bernardo do Campo\n");
 printf("Populacao:810.729");
 scanf("%d",810.729 &cidade.populacao);
