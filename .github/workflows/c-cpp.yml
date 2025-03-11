@@ -1,5 +1,5 @@
 // Cadastro da cidade
-printf("Cadastro da Cidade: São Bernardo do Campo\n");
+printf("Cadastro da Cidade:São Bernardo do Campo\n");
 printf("Populacao: 810.729");
 scanf("%d", 810.729 &cidade1.populacao);
 printf("Area: 409,6 metros quadrados");
