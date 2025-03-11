@@ -1,13 +1,13 @@
 // Cadastro da cidade
 printf("Cadastro da Cidade:São Bernardo do Campo\n");
-printf("Populacao: 810.729");
-scanf("%d", 810.729 &cidade1.populacao);
-printf("Area: 409,6 metros quadrados");
+printf("Populacao:810.729");
+scanf("%d",810.729 &cidade.populacao);
+printf("Area:409,6 metros quadrados");
 scanf("%f",409,6 metros quadrados cidade1.area);
-printf("PIB: R$38,9 bilhões");
-scanf("%f", R$38,9 bilhões &cidade1.pib);
-printf("Numero de pontos turisticos: 20 ");
-scanf("%d", 20 &cidade1.pontos_turisticos);
+printf("PIB:R$38,9 bilhões");
+scanf("%f",R$38,9 bilhões &cidade.pib);
+printf("Numero de pontos turisticos:20 ");
+scanf("%d",20 &cidade1.pontos_turisticos);
 
 
 // Exibição dos dados cadastrados
